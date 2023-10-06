@@ -1,6 +1,9 @@
-h1{
-    color: red;
+h1, h2, h3{
+    color: #4682B4;
 }
 body {
-    font-size: 18px;
+    font-size: 18px; font-family: Arial;
+}
+header, footer {
+    background-color: #FAEBD7;
 }
