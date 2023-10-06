@@ -1,0 +1,21 @@
+nav {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: #FFE4E1;
+    border: 1px solid #FA8072;
+  }
+
+
+ a:hover {
+    background-color: #FFA500; 
+  }
+
+  body {
+    font-size: 18px; font-family: Arial;
+}
+h1 {
+    color:#CD5C5C;
+}

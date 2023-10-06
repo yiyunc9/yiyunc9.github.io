@@ -1,4 +1,4 @@
-h1, h2, h3{
+ h2, h3{
     color: #4682B4;
 }
 body {
@@ -7,3 +7,35 @@ body {
 header, footer {
     background-color: #FAEBD7;
 }
+
+.site-title {
+    color: #CD5C5C;
+}
+
+#my-image {
+    width: 50%;
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul2 {
+    list-style-type: square;
+  }
+
+  .hobby-list li:nth-child(odd) {
+    background-color: #BC8F8F;
+  }
+
+  nav {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: #DEB887;
+    border: 1px solid #CD5C5C;
+  }
+
+
+ a:hover {
+    background-color: #FFA500; 
+  }
