@@ -47,31 +47,31 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu nav {
+.navigation {
     text-align: center;
+    font-size: 20px; 
 }
 
-.menu ul {
+.nav-list {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.menu li {
-    margin: 0 20px;
+.nav-item {
     position: relative;
 }
 
-li.divider::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: -5px;
-    border-right: 2px solid black;
+.nav-item a {
+    text-decoration: none;
+    color: black; 
 }
 
+.nav-divider {
+    color: black; 
+    padding: 0 5px;
+}
 
 a {
     text-decoration: none;
