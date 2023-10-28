@@ -1,5 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(img/lone-starfish-wide.jpg); 
+    background-size: cover;
+    background-repeat: repeat; 
+    background-position: center;
+}
+
+.container {
+    width: 68%;
+    margin: 0 auto;
+    background-color: #d4e9e7;
+    padding: 30px;
+}
+
 .image-container {
     position: relative;
+    align-content: center;
 }
 
 .text-on-image {
@@ -12,8 +47,99 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav {
-    font-size: 40px;
+.menu nav {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+    position: relative;
+}
+
+li.divider::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -5px;
+    border-right: 2px solid black;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.image-container2 {
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    padding: 11px;
+    float: left;
+    clear: both;
+}
+
+.container2 {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.form-group {
+    padding: 30px;
+    align-content: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.long-input {
+    width: 95%;
+}
+
+.large-input {
+    width: 100%;
+}
+
+.submit-button {
+    background-color: #aad4cf;
+    ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.right-align {
+    text-align: right;
+}
