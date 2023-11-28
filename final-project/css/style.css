@@ -46,6 +46,27 @@ header span {
     text-align: center;
 }
 
+.navbar {
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    margin-top: 10px;  
+}
+.search-box input {
+    border: none;
+    padding: 8px;
+    flex-grow: 100; 
+}
+
+.icon {
+    margin-left: 0;
+    background-color: #222222;
+    color: #d28800;
+    border: 1px solid #d28800;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -74,6 +95,21 @@ nav a:hover::before {
     z-index: -1;
 }
 
+
+#mainbanner {
+    width: 100%;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.banner-image {
+    width: 100%; 
+    display: block;
+    margin: 0 auto; 
+}
+
 main .wrapper {
     padding: 1em;
 }
@@ -85,6 +121,37 @@ main h1 {
 
 main p {
     margin-top: 2em;
+}
+
+/* ABOUT US */
+#about-us {
+    background-color: #ffe5a4;
+    padding: 40px 0;  
+}
+
+.intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.intro img {
+    width: 50%; 
+    max-width: 400px; 
+    height: auto;
+}
+
+.intro {
+    text-align: left;
+}
+
+.intro h2 {
+    font-size: 40px; 
+    margin-bottom: 20px; 
+}
+
+.intro p {
+    margin-bottom: 25px; 
 }
 
 /* SERVICES */
