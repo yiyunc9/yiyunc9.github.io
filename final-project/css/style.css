@@ -70,7 +70,7 @@ nav a:hover::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:#c68d00;
+    background-color: #d28800;
     z-index: -1;
 }
 
@@ -121,11 +121,19 @@ article p {
 
 .btn {
     text-decoration: none;
-    padding: 0.6em;
+    padding: 1.5em;
     background-color: black;
     color: white;
     font-weight: 700;
-    border-radius: 5px;
+
+}
+.button {
+    text-decoration: none;
+    padding: 1.5em;
+    background-color: #d28800;
+    color: #222222;
+    font-weight: 700;
+
 }
 
 @media only screen and (min-width: 760px) {
