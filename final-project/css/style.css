@@ -62,7 +62,6 @@ nav {
     
 }
 
-
 .icon {
     margin-left: 0;
     background-color: #222222;
@@ -160,7 +159,7 @@ nav a:hover::before {
   
   .button:hover {
     background-color: #ff9800; 
-
+    
 
 /* ABOUT US */
 
@@ -242,6 +241,14 @@ article p {
     font-weight: 700;
 
 }
+
+.bg-black {
+    background-color: black;
+}
+
+
+
+
 
 @media only screen and (min-width: 760px) {
     
