@@ -54,11 +54,14 @@ header span {
 nav {
     margin-top: 10px;  
 }
+
 .search-box input {
     border: none;
     padding: 8px;
     flex-grow: 100; 
+    
 }
+
 
 .icon {
     margin-left: 0;
@@ -71,6 +74,10 @@ nav ul {
     list-style: none;
     padding: 0;
     align-items: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
 }
 
 nav ul li a {
@@ -97,34 +104,67 @@ nav a:hover::before {
 
 
 #mainbanner {
-    width: 100%;
-}
-
-.wrapper {
     position: relative;
-}
-
-.banner-image {
-    width: 100%; 
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
     display: block;
-    margin: 0 auto; 
-}
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .content-container {
+    position: absolute;
+    top: 50%;
+    left: 35%; 
+    transform: translate(-50%, -50%);
+    text-align: left; /* Align text to the left */
+    color: #fff;
+    z-index: 1;
+  }
 
-main .wrapper {
-    padding: 1em;
-}
+  .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 2;
+  }
+  
+  .yellow-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 10%; 
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5em;
+    background-color: #d28800;
+    color: black;
+  }
+  
+  .button:hover {
+    background-color: #ff9800; 
 
-main h1 {
-    font-weight: 600;
-    font-size: 1.8rem;
-}
-
-main p {
-    margin-top: 2em;
-}
 
 /* ABOUT US */
-#about-us {
+
+.aboutus-grid {
     background-color: #ffe5a4;
     padding: 40px 0;  
 }
@@ -156,7 +196,7 @@ main p {
 
 /* SERVICES */
 
-#services {
+#ourservices {
     background-color: white;
 }
 
